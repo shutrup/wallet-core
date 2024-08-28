@@ -18,7 +18,7 @@ let package = Package(
         .binaryTarget(
             name: "JuneoSwiftProtobuf",
             url: "https://github.com/shutrup/wallet-core/releases/download/update/SwiftProtobuf.xcframework.zip",
-            checksum: "05557735dd607c5a369dc378eb3f299504b880614ef13f136a028ecd320b0e4d"
+            checksum: "9d2faa98ac5d9f107be1f0d0ebaabde051a0828c20f2fbc840049e5ff7e2131c"
         )
     ]
 )
