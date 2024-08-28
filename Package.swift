@@ -6,7 +6,7 @@ let package = Package(
     platforms: [.iOS(.v13)],
     products: [
         .library(name: "WalletCore", targets: ["WalletCore"]),
-        .library(name: "SwiftProtobuf", targets: ["SwiftProtobuf"])
+        .library(name: "JuneoSwiftProtobuf", targets: ["JuneoSwiftProtobuf"])
     ],
     dependencies: [],
     targets: [
@@ -16,7 +16,7 @@ let package = Package(
             checksum: "2fb8b833047b9697bba6ade66a9bdeede622b2fe0fb7a9b90cb9edb4651ec866"
         ),
         .binaryTarget(
-            name: "SwiftProtobuf",
+            name: "JuneoSwiftProtobuf",
             url: "https://github.com/trustwallet/wallet-core/releases/download/4.0.33/SwiftProtobuf.xcframework.zip",
             checksum: "05557735dd607c5a369dc378eb3f299504b880614ef13f136a028ecd320b0e4d"
         )
