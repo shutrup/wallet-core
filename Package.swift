@@ -17,7 +17,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "JuneoSwiftProtobuf",
-            url: "https://github.com/trustwallet/wallet-core/releases/download/4.0.33/SwiftProtobuf.xcframework.zip",
+            url: "https://github.com/shutrup/wallet-core/releases/download/1.0.1/SwiftProtobuf.xcframework.zip",
             checksum: "05557735dd607c5a369dc378eb3f299504b880614ef13f136a028ecd320b0e4d"
         )
     ]
